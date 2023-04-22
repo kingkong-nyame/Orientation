@@ -1,0 +1,117 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fafafa;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #fcfeff;
+    color: #0d0d0d;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li a {
+    color: #0c0c0c;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #2a57c9;
+  }
+  
+  header {
+    background-color: #5690c4;
+    text-align: center;
+    padding: 4rem;
+  }
+  
+
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #283b85;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .btn:hover {
+    background-color: hwb(15 42% 56% / 0.581);
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  section {
+    padding: 4rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      font-size: 0.75rem;
+    }
+  
+    section {
+      padding: 2rem;
+    }
+  
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    section p {
+      font-size: 1rem;
+    }
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
